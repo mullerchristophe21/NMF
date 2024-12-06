@@ -5,6 +5,8 @@
 #include <Rdefines.h>
 #include <R_ext/Error.h>
 
+DOUBLE_EPS = 1e-10
+
 extern "C" {
 
 	/** Returns the pointer address of 'x' as a character string*/
