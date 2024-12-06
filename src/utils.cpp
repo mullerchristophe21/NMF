@@ -5,7 +5,7 @@
 #include <Rdefines.h>
 #include <R_ext/Error.h>
 
-DOUBLE_EPS = 1e-10
+double DOUBLE_EPS = 1e-10;
 
 extern "C" {
 
